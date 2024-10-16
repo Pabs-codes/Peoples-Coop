@@ -1648,3 +1648,29 @@ function ecCheckCookie()
     });
 
 })(jQuery);
+
+
+
+
+/* newupdates */ 
+
+  const messages = [
+    '<span>Stay tuned for offers</span> and Discounts!',
+    '<span>Exclusive deals</span> coming your way!',
+    '<span>Get in touch with us on facebook </span> to stay updated!',
+    '<span>Limited-time offers</span> happening now!',
+    '<span>Don\'t miss out on</span> our special sales!'
+  ];
+
+  let currentIndex = 0;
+
+  // Function to change the message
+  function changeMessage() {
+    const messageElement = document.getElementById('header-message');
+    messageElement.innerHTML = messages[currentIndex];
+    currentIndex = (currentIndex + 1) % messages.length; // Cycle through messages
+  }
+
+  // Change message every 3 seconds
+  setInterval(changeMessage, 3000);
+
