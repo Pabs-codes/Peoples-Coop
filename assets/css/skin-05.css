@@ -18058,6 +18058,12 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .header-top-social ul li .hdr-facebook:hover {
   background: #3b5998;
 }
+.header-top-social ul li .hdr-whatsapp:hover {
+  background: #25D366;
+}
+.header-top-social ul li .hdr-mail:hover {
+  background: #ff9c51;
+}
 .header-top-social ul li .hdr-twitter:hover {
   background: #1da1f2;
 }
@@ -24179,6 +24185,9 @@ h4.ec-faq-title::after, .ec-faq-title.h4::after {
 }
 .single-pro-content .ec-single-social ul li.facebook a:hover {
   background: #3c5a98;
+}
+.single-pro-content .ec-single-social ul li.whatsapp a:hover {
+  background: #25D366;
 }
 .single-pro-content .ec-single-social ul li.twitter a:hover {
   background: #1da1f2;
